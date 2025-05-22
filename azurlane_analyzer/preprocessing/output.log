@@ -1,0 +1,22 @@
+========================================
+=== 碧藍航線數據預處理主控腳本 (v2) ===
+========================================
+項目根目錄: /home/shoukaka/Mount/Templates/Documents/Develop/Programming/Python/AzurLane-Analyzer
+Python 包目錄: /home/shoukaka/Mount/Templates/Documents/Develop/Programming/Python/AzurLane-Analyzer/azurlane_analyzer
+預處理腳本目錄: /home/shoukaka/Mount/Templates/Documents/Develop/Programming/Python/AzurLane-Analyzer/azurlane_analyzer/preprocessing
+數據庫文件: /home/shoukaka/Mount/Templates/Documents/Develop/Programming/Python/AzurLane-Analyzer/DataOutput/azur_lane_data.db
+JSON 數據目錄: /home/shoukaka/Mount/Templates/Documents/Develop/Programming/Python/AzurLane-Analyzer/AzurLaneData/sharecfgdata
+處理步驟腳本目錄: /home/shoukaka/Mount/Templates/Documents/Develop/Programming/Python/AzurLane-Analyzer/azurlane_analyzer/preprocessing/steps
+----------------------------------------
+初始化/檢查數據庫結構於: /home/shoukaka/Mount/Templates/Documents/Develop/Programming/Python/AzurLane-Analyzer/DataOutput/azur_lane_data.db
+  - 表 'equipment' 結構檢查/創建完成 (已包含詳細屬性欄位 stat_*)。
+  - 表 'ships' 結構檢查/創建完成。
+  - 表 'skills' 結構檢查/創建完成。
+數據庫結構已準備就緒。
+
+--- === [ 開始執行: process_equip_stats.py ] === ---
+  傳遞參數: JSON 目錄='/home/shoukaka/Mount/Templates/Documents/Develop/Programming/Python/AzurLane-Analyzer/AzurLaneData/sharecfgdata', DB 文件='/home/shoukaka/Mount/Templates/Documents/Develop/Programming/Python/AzurLane-Analyzer/DataOutput/azur_lane_data.db'
+  執行命令: /usr/bin/python -u /home/shoukaka/Mount/Templates/Documents/Develop/Programming/Python/AzurLane-Analyzer/azurlane_analyzer/preprocessing/steps/process_equip_stats.py /home/shoukaka/Mount/Templates/Documents/Develop/Programming/Python/AzurLane-Analyzer/AzurLaneData/sharecfgdata /home/shoukaka/Mount/Templates/Documents/Develop/Programming/Python/AzurLane-Analyzer/DataOutput/azur_lane_data.db
+
+========================================
+========================================
